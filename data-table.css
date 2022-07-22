@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+
+*{
+    margin:0%;
+    padding-top: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Poppins',sans-serif;
+}
+.costainer{
+    padding: 20px;
+    margin: 70px auto 0;
+}
+.heading {
+    font-size: 40px;
+    text-align: center;
+    color: #f05462;
+    text-shadow: 1px 1px 0px #333,2px 2px #666;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.table thead{
+    background-color: #f05462;
+}
+.table tr th {
+    font-size: 14px;
+    font-weight: 600px;
+    letter-spacing: 0. 35px;
+    color:#ffff;
+    opacity: 1;
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid #03382d;
+}
+.table tbody tr td {
+    font-size: px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    color: white;
+    background-color: #942b34;
+    padding: 8px;
+    border: 1px solid black;
+}
